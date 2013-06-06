@@ -10,7 +10,7 @@ param(
 [string] $InputDirectory,
 [Parameter(Mandatory=$true)]
 [string] $OutputDirectory,
-[string] $PngOutExeLocation = "C:\Users\John\Downloads\pngout.exe",
+[string] $PngOutExeLocation = "C:\Downloads\pngout.exe",
 [bool] $CleanOutputDirectory = $false
 )
 
